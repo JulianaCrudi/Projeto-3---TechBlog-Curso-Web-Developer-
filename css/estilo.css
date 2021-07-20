@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+
+/**Formatação Geral**/
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #DCDCDC;
+}
+
+
+/**Formatação do cabeçalho**/
+
+#menu {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4e4e4e;
+}
+
+.branco {
+    color: #ffffff;
+}
+
+#cabeçalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo {
+    padding: 10px;
+}
+
+
+/**Formatação de links**/
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#cabeçalho a:link,
+#cabeçalho a:visited {
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+#cabeçalho a:hover {
+    color: #f7b600;
+    background-color: #ffffff;
+}
+
+#area-postagens a:link,
+a:visited {
+    color: #f7b600;
+    padding: 5px;
+}
+
+#area-postagens a:hover {
+    color: #ffffff;
+    background-color: #f7b600;
+}
+
+
+/**Fim da formatação de links e menu**/
+
+
+/**Formatação da área principal**/
+
+#area-principal {
+    width: 950px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+/**Formatação da área postagens**/
+
+#area-postagens {
+    width: 660px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+img {
+    width: 620px;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    display: block;
+}
+
+p {
+    padding: 5px;
+}
+
+
+/**Formatação da área lateral**/
+
+#lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+h3 {
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/**Formatação do Rodapé**/
+
+#rodape {
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    background-color: #cccc;
+}
